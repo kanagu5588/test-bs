@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bai+Jamjuree&family=Labrada&family=PT+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --navbar-bg-color:#6e8528;
+    --primary-color:#ffff00;
+    --secondary-color:#ffffff;
+    --primary-bg-color:#89a437;
+    --section2-bg-color:#f4f3f3;
+    --btn-text-color:#000000;
+    --footer-bg-color:#829e13;
+    --media-text-color: #d81157;
+    --media-bg-color: #bb134e;
+    
+}
+.navbar{
+    background-color: var(--navbar-bg-color);
+}
+
+
+
+#slider-bg .slider{
+    height: 550px;
+    width: 100%;
+}
+
+
+.solo{
+    color: var(--primary-color);
+    
+}
+.cruze{
+    color: var(--secondary-color);
+}
+
+.mike{
+    background-color: var(--primary-color);
+    color: var(--btn-text-color);
+    border: none;
+    padding: 10px 30px;
+    margin-left: 50px;
+}
+.tag{
+    background-color: var(--secondary-color);
+    color: var(--btn-text-color);
+    border: none;
+   padding: 10px 30px;
+   
+}
+.mikeset{
+    background-color: var(--primary-color);
+    color: var(--btn-text-color);
+    border: none;
+    padding: 10px 30px;
+}
+.back{
+    height: 500px;
+    width: 100%;
+    background-color:  var(--primary-bg-color);
+}
+
+.aboutbgn{
+    background-color: var(--section2-bg-color);
+}
+form .bag{
+    padding: 10px 35px;
+}
+
+.rights{
+    background-color: var(--footer-bg-color);
+    
+}
+.front{
+    background-color: var(--primary-bg-color);
+}
+.pic{
+    height: 50px;
+    width: 50px;
+}
+.pin{
+    padding-top: 40px;
+}
+
+@media (max-width:1200px){
+    .cruze{
+        color: var(--media-text-color);
+    }
+    .map{
+        width: 80%;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:760px){
+    .cruze{
+        color: var(--media-text-color);
+    }
+    .map{
+        width: 80%;
+        margin-left: 40px;
+    }
+}
+
+@media  (max-width:480px){ 
+    #slider-bg .slider{
+        height: 650px;
+        width: 100%;
+    }
+    .cruze{
+        color: var(--media-text-color);
+    }
+    .mike{
+        background-color: var(--media-bg-color);
+        color: var(--secondary-color);
+        padding: 5px 20px;
+        margin-left: 40px;  
+    }
+    .mikeset{
+        background-color: var(--media-bg-color);
+        color: var(--secondary-color);
+        padding: 5px 20px;
+          
+    }
+    .tag{
+        background-color: var(--primary-color);
+        color: #000000;
+        border: none;
+        padding: 5px 20px;
+        
+        
+    }
+    .back{
+        height: 550px;
+        width: 100%;
+        
+    }
+    .pic{
+        height: 80px;
+        width: 80px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .map{
+        width: 260px;
+        margin-left: 40px;
+    }
+    .abt{
+        margin-top: 250%;
+    }
+    .care{
+        height: 600px;
+    }
+    
+}
